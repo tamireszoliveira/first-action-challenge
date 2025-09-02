@@ -1,5 +1,5 @@
 name: First Challenge
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
     lint:
