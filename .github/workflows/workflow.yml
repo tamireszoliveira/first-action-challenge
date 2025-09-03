@@ -9,7 +9,7 @@ jobs:
             uses: actions/checkout@v3 # pull repo code into the runner so it can find package.json
 
           - name: Install dependencies
-            run: npm install
+            run: npm ci
           - name: run lint
             run: npm run lint
 
